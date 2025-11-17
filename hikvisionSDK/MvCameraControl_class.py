@@ -8,10 +8,10 @@ import ctypes
 
 from ctypes import *
 
-from PixelType_header import *
-from CameraParams_const import *
-from CameraParams_header import *
-from MvErrorDefine_const import *
+from .PixelType_header import *
+from .CameraParams_const import *
+from .CameraParams_header import *
+from .MvErrorDefine_const import *
 
 
 def check_sys_and_update_dll():

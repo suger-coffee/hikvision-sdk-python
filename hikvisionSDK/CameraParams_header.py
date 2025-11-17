@@ -4,11 +4,8 @@
 import platform
 
 from ctypes import *
-from CameraParams_const import *
-from PixelType_header import *
-
-from CameraParams_const import *
-from PixelType_header import *
+from .CameraParams_const import *
+from .PixelType_header import *
 
 STRING = c_char_p
 
