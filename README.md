@@ -11,11 +11,17 @@ pip install git+https://github.com/suger-coffee/hikvision-sdk-python.git
 
 ```
 
-## 快速开始
+## 替换
 
 ```python
-from hikvisionSDK import MvCameraControl_class
-# 使用示例
+# 原示例写法（本地相对导入）
+from CameraParams_header import *
+
+# 推荐写法（使用 pip 包的绝对导入）
+from hikvisionSDK.CameraParams_header import *
+
+# 与海康官方示例一致的“裸变量风格”
+# 避免原始示例中大量常量、结构体和别名因命名空间不匹配而产生报错
 ```
 
 ## 版本
